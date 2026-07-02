@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Night of Ikhlas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<div class="container">
+
+    <div id="heart" onclick="startStory()">
+        ❤️
+    </div>
+
+    <p id="tapText">
+        Sentuh hatinya.
+    </p>
+
+</div>
+
+<div id="musicCard">
+
+    <span>🎵 Now Playing</span>
+
+    <h3>Hati-Hati di Jalan</h3>
+
+    <p>Tulus</p>
+
+</div>
+
+<div id="story">
+
+    <div class="storyBox">
+
+        <p id="storyText">
+
+        Pasien tak akan selalu mendapatkan perawat yang sama setiap harinya,
+        kecuali telah ada kepastian yang mengikat di antara keduanya.
+
+        Jika belum ada kepastian itu,
+        maka di sela-sela sakitnya harus selalu terselip rasa ikhlas
+        untuk menerima setiap pergantian.
+
+        </p>
+
+    </div>
+
+</div>
+
+<div id="ending">
+
+<h2>
+
+Tapi... ini bukan tentang perawat dan pasien.
+
+</h2>
+
+<p>
+
+Ini tentang harapan,
+kepastian,
+dan belajar mengikhlaskan.
+
+</p>
+
+<br>
+
+<p>
+
+— Pesan dari <b>Rfkaan21</b>
+
+</p>
+
+<p class="small">
+
+Terinspirasi dari seseorang yang sedang menempuh perjalanan di dunia keperawatan. 🤍
+
+</p>
+
+<button onclick="showStars()">
+
+Sentuh layar sekali lagi
+
+</button>
+
+</div>
+
+<div id="wishBoard">
+
+<h1>
+
+📌 Leave Your Wish
+
+</h1>
+
+<p>
+
+Tinggalkan satu pesan.
+Mungkin seseorang akan membacanya saat ia paling membutuhkannya.
+
+</p>
+
+<input
+type="text"
+id="name"
+placeholder="Nama (opsional)"
+>
+
+<textarea
+
+id="message"
+
+placeholder="Tulis harapanmu..."
+
+></textarea>
+
+<button onclick="addWish()">
+
+📌 Tempelkan Pesan
+
+</button>
+
+<div id="notes">
+
+</div>
+
+</div>
+
+<audio id="bgMusic" controls>
+
+<!-- Nanti isi dengan file musik yang kamu miliki izinnya -->
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+      </html>
